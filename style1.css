@@ -1,0 +1,68 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'PS';
+    src: url('../Терминал/PS/fonts/pixeloid_sans.eot'); /* IE 9 Compatibility Mode */
+    src: url('../Терминал/PS/fonts/pixeloid_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../Терминал/PS/fonts/pixeloid_sans.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../Терминал/PS/fonts/pixeloid_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../Терминал/PS/fonts/pixeloid_sans.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../Терминал/PS/fonts/pixeloid_sans.svg#pixeloid_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body {
+    background-color: black;
+}
+h1 {
+    color: #32CD32;
+    font-family: "PS";
+    text-align: center;
+    text-shadow: 1px 1px 1px #006400;
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 120px;
+}
+.img2 {
+    width: 320px;
+    height: 80px;
+}
+p {
+    position: absolute;
+    top: 800px;
+    left: 620px;
+    color: #32CD32;
+    text-shadow: 1px 1px 1px #006400;
+    font-family: "PS";
+}
+input {
+    color: #32CD32;
+    box-shadow: 1px 1px 1px #006400;
+    background-color: black;
+    border-color: #32CD32;
+    width: 320px;
+    height: 25px;
+    margin: 5px;
+    font-family: "PS";
+}
+input::placeholder {
+    color: #32CD32;
+    text-shadow: 1px 1px 1px #006400;
+    font-family: "PS";
+}
+button::before {
+    font-family: "PS";
+    content: attr(text);
+    color: #32CD32;
+    text-shadow: 1px 1px 1px #006400;
+    font-size: 20px;
+    z-index: 2;
+}
+
+button:hover::before {
+    font-family: "PS";
+    content: attr(hover-text);
+    color: #32CD32;
+    text-shadow: 1px 1px 1px #006400;
+    z-index: 2;
+}

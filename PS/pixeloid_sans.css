@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Pixeloid Sans';
+	src: url('../fonts/pixeloid_sans.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/pixeloid_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/pixeloid_sans.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/pixeloid_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/pixeloid_sans.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/pixeloid_sans.svg#pixeloid_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+}
