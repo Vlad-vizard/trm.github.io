@@ -1,12 +1,12 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @font-face {
     font-family: 'PS';
-    src: url('../PS/fonts/pixeloid_sans.eot'); /* IE 9 Compatibility Mode */
-    src: url('../PS/fonts/pixeloid_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-    url('../PS/fonts/pixeloid_sans.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../PS/fonts/pixeloid_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-    url('../PS/fonts/pixeloid_sans.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../PS/fonts/pixeloid_sans.svg#pixeloid_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+    src: url('../trm.github.io/PS/fonts/pixeloid_sans.eot'); /* IE 9 Compatibility Mode */
+    src: url('../trm.github.io/PS/fonts/pixeloid_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../trm.github.io/PS/fonts/pixeloid_sans.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../trm.github.io/PS/fonts/pixeloid_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../trm.github.io/PS/fonts/pixeloid_sans.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../trm.github.io/PS/fonts/pixeloid_sans.svg#pixeloid_sans') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 body {
     background-color: black;
